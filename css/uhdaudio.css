@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600,700&display=swap');
+
+/* base retouch */
+body {
+    cursor: default;
+    font-size: 12px;
+    font-family: 'Open sans', sans-serif;
+    line-height: 1.65;
+}
+a, input, button, img {
+    cursor: pointer;
+    outline: none;
+    vertical-align: middle;
+}
+h3, .h3 {
+    margin-top: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 48px;
+    text-transform: uppercase;
+}
+h3:first-child {
+    margin-top: 4px;
+}
+h5, .h5 {
+    font-size: 15px;
+}
+:hover {
+    transition: background .3s, border .3s, box-shadow .3s, color .3s, opacity .3s;
+}
+
+/* for header */
+.header {
+    padding: 38px 50px;
+    height: 120px;
+    line-height: 44px;
+    box-shadow: 0 .25rem 1rem rgba(48,55,66,.15);
+}
+.img-logo {
+    margin-right: 56px;
+    height: 44px;
+}
+.header-search {
+    position: relative;
+    display: inline-block;
+}
+.header-search .form-icon {
+    position: absolute;
+    left: 16px;
+    top: 10px;
+    color: #BCC3CE;
+    font-size: 20px;
+}
+.header-search .form-input {
+    padding: 0 16px 0 50px;
+    display: inline-block;
+    width: auto;
+    max-width: 480px;
+    min-width: 560px;
+    height: 44px;
+    line-height: 48px;
+    border-radius: 24px !important;
+}
+.account-set .btn {
+    padding: 0 24px 12px;
+    height: 44px;
+    font-size: 16px;
+    line-height: 44px;
+}
+.account-set .btn.s-circle {
+    margin-left: 12px;
+    padding: 0;
+    width: 44px;
+}
+
+/* for Contents wrapping */
+.contents-wrap {
+    position: relative;
+}
+
+/* for GNB sidebar */
+.sidebar {
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 30px 42px;
+    width: 240px;
+    background: #F7F8F9;
+}
+.nav a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 32px;
+}
+.nav .nav {
+    margin-left: 32px;
+}
+.nav .nav a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 24px;
+}
+.nav .nav a:hover {
+    color: #5755D9;
+    text-decoration: underline;
+}
+.nav .nav-item.active > a {
+    color: #5755D9;
+}
+.nav .typcn:before {
+    margin-right: 6px;
+}
+
+
+/* for Contents */
+.contents {
+    box-sizing: border-box;
+    padding: 30px 50px 30px 290px;
+    max-width: 100%;
+}
+.contents section {
+    margin-bottom: 20px;
+}
+.cards:hover .card {
+    opacity: .6;
+}
+.cards .card:hover {
+    opacity: 1 !important;
+}
+.news-today .card-body {
+    display: -webkit-box;
+    margin-bottom: 10px;
+    height: 72px;
+    line-height: 21px;
+    white-space: normal;
+    word-wrap: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.news-today .card {
+    margin-bottom: 15px;
+}
+
+/* for footer */
+.footer {
+    padding: 32px 50px;
+    background: #15151D;
+    color: #BCC3CE;
+    font-size: 12px;
+}
+.footer p {
+    margin: 2px 0;
+}
+.footer a {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* element retouch */
+.typcn:before {
+    font-size: 20px;
+}
+.s-round {
+    border-radius: 20px !important;
+}
+.btn-group .s-round:first-child {
+    border-radius: 20px 0 0 20px !important;
+}
+.btn-group .s-round:last-child {
+    border-radius: 0 20px 20px 0 !important;
+}
+.card {
+    box-sizing: border-box;
+    border: 4px solid #F7F8F9;
+}
+.card:hover {
+    border: 4px solid #5755D9;
+    cursor: pointer;
+}
+.tooltip::after {
+    left: 50%;
+    bottom: 0;
+    display: block;
+    padding: 6px;
+    width: 100%;
+    background: #5755D9;
+    font-size: 12px;
+    border-radius: 0;
+}
+
+/* for Carousel retouch */
+.owl-dots {
+    text-align: center;
+}
+.owl-dot {
+    display: inline-block;
+    width: 60px;
+    height: 4px;
+    background: #BCC3CE !important;
+}
+.owl-dot.active {
+    background: #5755D9 !important;
+}
+.owl-nav {
+    z-index: 500;
+    position: absolute;
+    top: 50%;
+    right: -16px;
+    margin-top: -60px;
+}
+.owl-nav button {
+    display: block;
+    margin-bottom: 1px;
+    width: 32px;
+    height: 60px;
+    font-size: 24px !important;
+    background: #BCC3CE !important;
+    color: #FFF !important;
+}
+.owl-nav button:hover {
+    background: #5755D9 !important;
+}
+
+/* for Popup Layer */
+.layer-set {
+    z-index: 500;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.layer-set .blind {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(59, 67, 81, .6);
+}
+.layer {
+    z-index: 550;
+    position: relative;
+    margin: 100px auto;
+    width: 560px;
+    background: #FFF;
+}
