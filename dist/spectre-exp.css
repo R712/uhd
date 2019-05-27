@@ -59,7 +59,7 @@
 
 .calendar .calendar-nav {
   align-items: center;
-  background: #f7f8f9;
+  background: #F2F2F5;
   border-top-left-radius: .1rem;
   border-top-right-radius: .1rem;
   display: flex;
@@ -88,7 +88,7 @@
 }
 
 .calendar .calendar-header {
-  background: #f7f8f9;
+  background: #F2F2F5;
   border-bottom: .05rem solid #dadee4;
   color: #bcc3ce;
   font-size: .7rem;
@@ -292,11 +292,11 @@
 .carousel .carousel-locator:nth-of-type(6):checked ~ .carousel-nav .nav-item:nth-of-type(6),
 .carousel .carousel-locator:nth-of-type(7):checked ~ .carousel-nav .nav-item:nth-of-type(7),
 .carousel .carousel-locator:nth-of-type(8):checked ~ .carousel-nav .nav-item:nth-of-type(8) {
-  color: #f7f8f9;
+  color: #F2F2F5;
 }
 
 .carousel {
-  background: #f7f8f9;
+  background: #F2F2F5;
   display: block;
   overflow: hidden;
   -webkit-overflow-scrolling: touch;
@@ -337,7 +337,7 @@
 .carousel .carousel-container .item-next {
   background: rgba(247, 248, 249, .25);
   border-color: rgba(247, 248, 249, .5);
-  color: #f7f8f9;
+  color: #F2F2F5;
   opacity: 0;
   position: absolute;
   top: 50%;
@@ -565,7 +565,7 @@
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  background: #f7f8f9;
+  background: #F2F2F5;
   border: 0;
   border-radius: .1rem;
   display: block;
@@ -585,7 +585,7 @@
 }
 
 .meter::-webkit-meter-bar {
-  background: #f7f8f9;
+  background: #F2F2F5;
 }
 
 .meter::-webkit-meter-optimum-value {
@@ -639,7 +639,7 @@
 }
 
 .off-canvas .off-canvas-sidebar {
-  background: #f7f8f9;
+  background: #F2F2F5;
   bottom: 0;
   left: 0;
   min-width: 10rem;
@@ -952,19 +952,19 @@
 
 .slider:disabled::-webkit-slider-thumb,
 .slider.disabled::-webkit-slider-thumb {
-  background: #f7f8f9;
+  background: #F2F2F5;
   transform: scale(1);
 }
 
 .slider:disabled::-moz-range-thumb,
 .slider.disabled::-moz-range-thumb {
-  background: #f7f8f9;
+  background: #F2F2F5;
   transform: scale(1);
 }
 
 .slider:disabled::-ms-thumb,
 .slider.disabled::-ms-thumb {
-  background: #f7f8f9;
+  background: #F2F2F5;
   transform: scale(1);
 }
 

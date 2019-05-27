@@ -7,7 +7,10 @@ $(document).ready(function(){
         autoplay: true,
         responsiveClass: true,
         responsive: {
-            0: { items: 6 },
+            0: { items: 2 },
+            375: { items: 3 },
+            720: { items: 4 },
+            1280: { items: 6 },
             1440: { items: 8 }
         }
     });
@@ -18,11 +21,21 @@ $(document).ready(function(){
         dots: false,
         responsiveClass: true,
         responsive: {
-            0: { items: 4 },
+            0: { items: 1 },
+            375: { items: 2 },
+            720: { items: 3 },
+            1280: { items: 4 },
             1440: { items: 6 }
         }
     });
     $('.blind, .layer .layer-close').click(function(){
        $('.layer-set').fadeOut(); 
+    });
+    $('.btn-sidebar').click(function(){
+        $('body').toggleClass('sidebar-toggle');
+        $(".sidebar").slideToggle();
+    });
+    $('.account-set button').click(function(){
+       $('#welcome-layer').fadeIn('fast');
     });
 });

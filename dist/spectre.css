@@ -521,7 +521,7 @@ html:lang(ko),
 }
 
 .table.table-striped tbody tr:nth-of-type(odd) {
-  background: #f7f8f9;
+  background: #F2F2F5;
 }
 
 .table tbody tr.active,
@@ -1166,7 +1166,7 @@ textarea.form-input.input-sm {
 }
 
 .form-switch input:active + .form-icon::before {
-  background: #f7f8f9;
+  background: #F2F2F5;
 }
 
 .input-group {
@@ -1175,7 +1175,7 @@ textarea.form-input.input-sm {
 }
 
 .input-group .input-group-addon {
-  background: #f7f8f9;
+  background: #F2F2F5;
   border: .05rem solid #bcc3ce;
   border-radius: .1rem;
   line-height: 1.2rem;
@@ -1333,7 +1333,7 @@ textarea.form-input.input-sm {
 }
 
 .form-input[readonly] {
-  background-color: #f7f8f9;
+  background-color: #F2F2F5;
 }
 
 input:disabled + .form-icon,
@@ -1428,7 +1428,7 @@ code {
 }
 
 .code code {
-  background: #f7f8f9;
+  background: #F2F2F5;
   color: inherit;
   display: block;
   line-height: 1.5;
@@ -2427,7 +2427,7 @@ summary.accordion-header::-webkit-details-marker {
 }
 
 .empty {
-  background: #f7f8f9;
+  background: #F2F2F5;
   border-radius: .1rem;
   color: #66758c;
   padding: 3.2rem 1.6rem; 
@@ -3234,7 +3234,7 @@ a.text-error:visited {
 }
 
 .bg-gray {
-  background: #f7f8f9 !important;
+  background: #F2F2F5 !important;
 }
 
 .bg-success {

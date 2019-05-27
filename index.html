@@ -11,8 +11,8 @@
     <meta property="og:url" content="https://uhdaudio.com/">
     <meta property="og:title" content="UHDaudio 고음질 음원 스토어">
     <meta property="og:description" content="UHDaudio.com 은 고음질 음원 스토어 입니다.">
-    <link rel="shortcut icon" href="img/favicons/favicon.ico">
-    <link rel="icon" href="img/favicons/favicon.png">
+    <link rel="shortcut icon" href="imgs/logo_symbol.png">
+    <link rel="icon" href="imgs/logo_symbol.png">
     <link rel="stylesheet" href="dist/spectre.min.css">
     <link rel="stylesheet" href="dist/spectre-icons.min.css">
     <link rel="stylesheet" href="dist/spectre-exp.min.css">
@@ -23,20 +23,25 @@
 <body>
 
     <!-- Header here -->
-    <div class="header">
-        <div class="logo-set float-left">
+    <div class="header columns">
+        <div class="col-3 col-xl-4 col-md-6">
+            <button type="button" class="btn-sidebar btn"><i class="icon icon-menu"></i></button>
             <a href="#"><img src="imgs/logo.png" alt="UHDaudio.com" class="img-logo" /></a>
-            <div class="header-search">
-                <input class="form-input" type="text" placeholder="Search for a high-quality sound source now.">
-                <i class="form-icon icon icon-search"></i>
-            </div>
         </div>
-        <div class="account-set float-right">
-            <div class="btn-group">
+        <div class="header-search col-6 col-xl-4 hide-md">
+            <input class="form-input" type="text" placeholder="Search for a high-quality sound source now.">
+            <i class="form-icon icon icon-search"></i>
+        </div>
+        <div class="account-set col-3 col-xl-4 col-md-6">
+            <div class="is-logout btn-group" style="display: none;">
                 <button class="btn btn-primary s-round"><span class="typcn typcn-key"> Login</span></a>
                 <button class="btn btn-primary s-round">Register</a>
             </div>
-            <button class="btn s-circle"><span class="typcn typcn-shopping-cart"></span></button>
+            <div class="is-login">
+                <strong class="account-name">Administrator</strong>
+                <button class="btn s-circle badge" data-badge="3"><span class="typcn typcn-shopping-cart"></span></button>
+                <button class="btn btn-link"><i class="icon icon-more-vert"></i></button>
+            </div>
         </div>
     </div>
     
@@ -53,7 +58,7 @@
                     <a href="#"><span class="typcn typcn-flash-outline"> New</span></a>
                 </li>
                 <li class="nav-item">
-                    <a href="#">DSD</a>
+                    <a href="#"><span class="label">DSD</span> DSD</a>
                 </li>
                 <li class="nav-item">
                     <a href="#"><span class="typcn typcn-notes-outline"> Genre</span></a>
@@ -254,22 +259,22 @@
             <section class="focus-video">
                 <h3>Focus on this video</h3>
                 <div class="cards columns">
-                    <div class="column col-3">
+                    <div class="column col-3 col-md-6 col-sm-12">
                         <div class="card video-responsive video-responsive-4-3">
                             <iframe src="https://player.vimeo.com/video/112700072?color=ffffff&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
                         </div>
                     </div>
-                    <div class="column col-3">
+                    <div class="column col-3 col-md-6 col-sm-12">
                         <div class="card video-responsive video-responsive-4-3">
                             <iframe src="https://player.vimeo.com/video/318088314?color=ffffff&title=0&portrait=0" width="640" height="400" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
                         </div>
                     </div>
-                    <div class="column col-3">
+                    <div class="column col-3 col-md-6 col-sm-12">
                         <div class="card video-responsive video-responsive-4-3">
                             <iframe src="https://player.vimeo.com/video/334831816?color=ffffff&title=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
                         </div>
                     </div>
-                    <div class="column col-3">
+                    <div class="column col-3 col-md-6 col-sm-12">
                         <div class="card video-responsive video-responsive-4-3">
                             <iframe src="https://player.vimeo.com/video/331815981?color=ffffff&title=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
                         </div>
@@ -280,7 +285,7 @@
             <section class="news-today">
                 <h3>News of today</h3>
                 <div class="columns">
-                    <div class="column col-4">
+                    <div class="column col-4 col-md-6 col-xs-12">
                         <div class="card">
                             <div class="card-header">
                                 <div class="card-title h5 text-ellipsis">Article title here.</div>
@@ -294,7 +299,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="column col-4">
+                    <div class="column col-4 col-md-6 col-xs-12">
                         <div class="card">
                             <div class="card-header">
                                 <div class="card-title h5 text-ellipsis">Article title here. And longer title will be cropped. right?</div>
@@ -308,7 +313,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="column col-4">
+                    <div class="column col-4 col-md-6 col-xs-12">
                         <div class="card">
                             <div class="card-header">
                                 <div class="card-title h5 text-ellipsis">Article title here.</div>
@@ -322,7 +327,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="column col-4">
+                    <div class="column col-4 col-md-6 col-xs-12">
                         <div class="card">
                             <div class="card-header">
                                 <div class="card-title h5 text-ellipsis">Article title here.</div>
@@ -336,7 +341,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="column col-4">
+                    <div class="column col-4  col-md-6 col-xs-12">
                         <div class="card">
                             <div class="card-header">
                                 <div class="card-title h5 text-ellipsis">Article title here. And longer title will be cropped. right?</div>
@@ -350,7 +355,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="column col-4">
+                    <div class="column col-4 col-md-6 col-xs-12">
                         <div class="card">
                             <div class="card-header">
                                 <div class="card-title h5 text-ellipsis">Article title here.</div>
@@ -367,10 +372,10 @@
                 </div>
             </section>
             
-            <section class="notice">
+            <section class="notice text-ellipsis">
                 <span class="typcn typcn-flag"> Notice</span>
                 <a href="#">Finally, our new music store platform 'UHDaudio.com' is grand open!</a>
-                <a href="#" class="btn">View list <span class="typcn typcn-arrow-maximise"></span></a>
+                <a href="#" class="btn btn-link"><span class="typcn typcn-arrow-maximise"></span></a>
             </section>
 
         </div>
@@ -379,6 +384,7 @@
     
     <!-- Footer here -->
     <div class="footer container">
+        <a href="#" class="btn-top btn btn-primary"><span class="typcn typcn-arrow-up"></span></a>
         <img src="imgs/logo_light.png" alt="UHDaudio.com" class="img-logo float-left" />
         <p><a href="#">Company Info</a> · <a href="#">Terms</a> · <a href="#">Privacy</a> · <a href="#">Contact</a></p>
         <p>&copy; <strong>2019 UHDaudio.com, Inc.</strong> All rights reserved.</p>
@@ -388,18 +394,16 @@
     <div id="welcome-layer" class="layer-set">
         <div class="blind"></div>
         <div class="layer">
-            <button type="button" class="layer-close"><i class="icon icon-cross"></i></button>
+            <button type="button" class="layer-close btn btn-link"><i class="icon icon-cross"></i></button>
             <div class="layer-header">
-                Welcome, Stranger!
+                <h4>Get you need<br />ultra high-quality audios!</h4>
             </div>
             <div class="layer-body">
-                Layer contents here. blah blah.
+                <p>Layer contents here. blah blah. 평등한 메인 버튼들을 여기에 두면 됩니다. 그 외에 독립적으로 강조하고자 하거나, 컨텐츠를 종결 시키는 의미를 가지는 버튼 등은 아래 layer-tint에 배치.</p>
             </div>
             <div class="layer-tint">
-                Contents has background color.
-            </div>
-            <div class="layer-footer">
-                Layer footer here.
+                <p>This contents has background color.</p>
+                <button type="button" class="btn btn-lg btn-block">Large button here</button>
             </div>
         </div>
     </div>
