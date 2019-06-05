@@ -23,27 +23,27 @@
 <body>
 
     <!-- Header here -->
-    <div class="header columns test">
-        <div class="col-3 col-xl-4 col-md-6">
-            <button type="button" class="btn-sidebar btn"><i class="icon icon-menu"></i></button>
-            <a href="#"><img src="imgs/logo.png" alt="UHDaudio.com" class="img-logo" /></a>
-        </div>
-        <div class="header-search col-6 col-xl-4 hide-md">
-            <input class="form-input" type="text" placeholder="Search for a high-quality sound source now.">
-            <i class="form-icon icon icon-search"></i>
-        </div>
-        <div class="account-set col-3 col-xl-4 col-md-6">
-            <div class="is-logout btn-group" style="display: none;">
-                <button class="btn btn-primary s-round"><span class="typcn typcn-key"> Login</span></a>
-                <button class="btn btn-primary s-round">Register</a>
-            </div>
-            <div class="is-login">
-                <strong class="account-name">Administrator</strong>
-                <button class="btn s-circle badge" data-badge="3"><span class="typcn typcn-shopping-cart"></span></button>
-                <button class="btn btn-link"><i class="icon icon-more-vert"></i></button>
-            </div>
-        </div>
-    </div>
+    <div id="header" class="header columns">
+	    <div class="col-3 col-xl-4 col-md-6">
+	        <button type="button" class="btn-sidebar btn"><i class="icon icon-menu"></i></button>
+	        <a href="#"><img src="imgs/logo.png" alt="UHDaudio.com" class="img-logo" /></a>
+	    </div>
+	    <div class="header-search col-6 col-xl-4 hide-md">
+	        <input class="form-input" type="text" placeholder="Search for a high-quality sound source now.">
+	        <i class="form-icon icon icon-search"></i>
+	    </div>
+	    <div class="account-set col-3 col-xl-4 col-md-6">
+	        <div class="is-logout btn-group" style="display: none;">
+	            <button class="btn btn-primary s-round"><span class="typcn typcn-key"> Login</span></a>
+	            <button class="btn btn-primary s-round">Register</a>
+	        </div>
+	        <div class="is-login">
+	            <strong class="account-name">Administrator</strong>
+	            <button class="btn s-circle badge" data-badge="3"><span class="typcn typcn-shopping-cart"></span></button>
+	            <button class="btn btn-link"><i class="icon icon-more-vert"></i></button>
+	        </div>
+	    </div>
+	</div>
     
     <!-- Contents wrap here -->
     <div class="contents-wrap">
@@ -52,41 +52,41 @@
         <div class="sidebar">
             <ul class="nav">
                 <li class="nav-item active">
-                    <a href="#"><span class="typcn typcn-home-outline"> Home</span></a>
+                    <a href="index.html"><span class="typcn typcn-home-outline"> Home</span></a>
                 </li>
                 <li class="nav-item">
-                    <a href="#"><span class="typcn typcn-flash-outline"> New</span></a>
+                    <a href="list_default.html"><span class="typcn typcn-flash-outline"> New</span></a>
                 </li>
                 <li class="nav-item">
-                    <a href="#"><span class="label">DSD</span> DSD</a>
+                    <a href="list_default.html"><span class="label">DSD</span> DSD</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#"><span class="typcn typcn-notes-outline"> Genre</span></a>
+                    <a href="list_default.html"><span class="typcn typcn-notes-outline"> Genre</span></a>
                     <ul class="nav">
-                        <li><a href="#">Alternative</a></li>
-                        <li><a href="#">Blues</a></li>
-                        <li><a href="#">Classical</a></li>
-                        <li><a href="#">Country</a></li>
-                        <li><a href="#">Electronic</a></li>
-                        <li><a href="#">Francophone</a></li>
-                        <li><a href="#">Hip Hop</a></li>
-                        <li><a href="#">Jazz</a></li>
-                        <li><a href="#">Pop</a></li>
-                        <li><a href="#">R&amp;B</a></li>
-                        <li><a href="#">Rock</a></li>
-                        <li><a href="#">Singer/Songwriter</a></li>
-                        <li><a href="#">Soundtrack</a></li>
-                        <li><a href="#">Other</a></li>
+                        <li><a href="list_default.html">Alternative</a></li>
+                        <li><a href="list_default.html">Blues</a></li>
+                        <li><a href="list_default.html">Classical</a></li>
+                        <li><a href="list_default.html">Country</a></li>
+                        <li><a href="list_default.html">Electronic</a></li>
+                        <li><a href="list_default.html">Francophone</a></li>
+                        <li><a href="list_default.html">Hip Hop</a></li>
+                        <li><a href="list_default.html">Jazz</a></li>
+                        <li><a href="list_default.html">Pop</a></li>
+                        <li><a href="list_default.html">R&amp;B</a></li>
+                        <li><a href="list_default.html">Rock</a></li>
+                        <li><a href="list_default.html">Singer/Songwriter</a></li>
+                        <li><a href="list_default.html">Soundtrack</a></li>
+                        <li><a href="list_default.html">Other</a></li>
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a href="#"><span class="typcn typcn-user-outline"> Artist</span></a>
+                    <a href="list_artist.html"><span class="typcn typcn-user-outline"> Artist</span></a>
                 </li>
                 <li class="nav-item">
-                    <a href="#"><span class="typcn typcn-document-text"> News</span></a>
+                    <a href="list_news.html"><span class="typcn typcn-document-text"> News</span></a>
                 </li>
                 <li class="nav-item">
-                    <a href="#"><span class="typcn typcn-briefcase"> Shop</span></a>
+                    <a href="list_shop.html"><span class="typcn typcn-briefcase"> Shop</span></a>
                 </li>
             </ul>
         </div>
@@ -98,64 +98,88 @@
                 <h3>Recommend artist</h3>
                 <div class="cards owl-carousel">
                     <div class="item">
-                        <div class="card tooltip" data-tooltip="Artist name here.">
-                            <div class="card-image"><img src="https://images.genius.com/76d4c334f152af03371f18a076a778d3.1000x1000x1.jpg" alt="thumbnail" class="img-responsive" /></div>
-                        </div>
+	                    <a href="artist_page.html">
+	                        <div class="card tooltip" data-tooltip="Artist name here.">
+	                            <div class="card-image"><img src="https://images.genius.com/76d4c334f152af03371f18a076a778d3.1000x1000x1.jpg" alt="thumbnail" class="img-responsive" /></div>
+	                        </div>
+	                    </a>
                     </div>
                     <div class="item">
-                        <div class="card tooltip" data-tooltip="Artist name here.">
-                            <div class="card-image"><img src="https://i1.wp.com/celebmix.com/wp-content/uploads/2018/11/quinn-xcii-announces-2019-tour-and-new-album-01.png?fit=758%2C751&ssl=1" alt="thumbnail" class="img-responsive" /></div>
-                        </div>
+	                    <a href="artist_page.html">
+	                        <div class="card tooltip" data-tooltip="Artist name here.">
+	                            <div class="card-image"><img src="https://i1.wp.com/celebmix.com/wp-content/uploads/2018/11/quinn-xcii-announces-2019-tour-and-new-album-01.png?fit=758%2C751&ssl=1" alt="thumbnail" class="img-responsive" /></div>
+	                        </div>
+	                    </a>
                     </div>
                     <div class="item">
-                        <div class="card tooltip" data-tooltip="Artist name here.">
-                            <div class="card-image"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/7/7e/Dean_Lewis_-_A_Place_We_Knew.png/220px-Dean_Lewis_-_A_Place_We_Knew.png" alt="thumbnail" class="img-responsive" /></div>
-                        </div>
+	                    <a href="artist_page.html">
+	                        <div class="card tooltip" data-tooltip="Artist name here.">
+	                            <div class="card-image"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/7/7e/Dean_Lewis_-_A_Place_We_Knew.png/220px-Dean_Lewis_-_A_Place_We_Knew.png" alt="thumbnail" class="img-responsive" /></div>
+	                        </div>
+	                    </a>
                     </div>
                     <div class="item">
-                        <div class="card tooltip" data-tooltip="Artist name here.">
-                            <div class="card-image"><img src="https://t1.daumcdn.net/cfile/tistory/99452C4B5CC3CF2C1B" alt="thumbnail" class="img-responsive" /></div>
-                        </div>
+	                    <a href="artist_page.html">
+	                        <div class="card tooltip" data-tooltip="Artist name here.">
+	                            <div class="card-image"><img src="https://t1.daumcdn.net/cfile/tistory/99452C4B5CC3CF2C1B" alt="thumbnail" class="img-responsive" /></div>
+	                        </div>
+	                    </a>
                     </div>
                     <div class="item">
-                        <div class="card tooltip" data-tooltip="Artist name here.">
-                            <div class="card-image"><img src="https://i.scdn.co/image/fe04c83b9a329527399f50827c098983ace070ad" alt="thumbnail" class="img-responsive" /></div>
-                        </div>
+	                    <a href="artist_page.html">
+	                        <div class="card tooltip" data-tooltip="Artist name here.">
+	                            <div class="card-image"><img src="https://i.scdn.co/image/fe04c83b9a329527399f50827c098983ace070ad" alt="thumbnail" class="img-responsive" /></div>
+	                        </div>
+	                    </a>
                     </div>
                     <div class="item">
-                        <div class="card tooltip" data-tooltip="Artist name here.">
-                            <div class="card-image"><img src="https://s.mxmcdn.net/images-storage/albums4/0/6/4/5/8/8/42885460_800_800.jpg" alt="thumbnail" class="img-responsive" /></div>
-                        </div>
+	                    <a href="artist_page.html">
+	                        <div class="card tooltip" data-tooltip="Artist name here.">
+	                            <div class="card-image"><img src="https://s.mxmcdn.net/images-storage/albums4/0/6/4/5/8/8/42885460_800_800.jpg" alt="thumbnail" class="img-responsive" /></div>
+                        	</div>
+	                    </a>
                     </div>
                     <div class="item">
-                        <div class="card tooltip" data-tooltip="Artist name here.">
-                            <div class="card-image"><img src="https://images.genius.com/76d4c334f152af03371f18a076a778d3.1000x1000x1.jpg" alt="thumbnail" class="img-responsive" /></div>
-                        </div>
+	                    <a href="artist_page.html">
+	                        <div class="card tooltip" data-tooltip="Artist name here.">
+	                            <div class="card-image"><img src="https://images.genius.com/76d4c334f152af03371f18a076a778d3.1000x1000x1.jpg" alt="thumbnail" class="img-responsive" /></div>
+	                        </div>
+	                    </a>
                     </div>
                     <div class="item">
-                        <div class="card tooltip" data-tooltip="Artist name here.">
-                            <div class="card-image"><img src="https://i1.wp.com/celebmix.com/wp-content/uploads/2018/11/quinn-xcii-announces-2019-tour-and-new-album-01.png?fit=758%2C751&ssl=1" alt="thumbnail" class="img-responsive" /></div>
-                        </div>
+	                    <a href="artist_page.html">
+	                        <div class="card tooltip" data-tooltip="Artist name here.">
+	                            <div class="card-image"><img src="https://i1.wp.com/celebmix.com/wp-content/uploads/2018/11/quinn-xcii-announces-2019-tour-and-new-album-01.png?fit=758%2C751&ssl=1" alt="thumbnail" class="img-responsive" /></div>
+	                        </div>
+	                    </a>
                     </div>
                     <div class="item">
-                        <div class="card tooltip" data-tooltip="Artist name here.">
-                            <div class="card-image"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/7/7e/Dean_Lewis_-_A_Place_We_Knew.png/220px-Dean_Lewis_-_A_Place_We_Knew.png" alt="thumbnail" class="img-responsive" /></div>
-                        </div>
+	                    <a href="artist_page.html">
+	                        <div class="card tooltip" data-tooltip="Artist name here.">
+	                            <div class="card-image"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/7/7e/Dean_Lewis_-_A_Place_We_Knew.png/220px-Dean_Lewis_-_A_Place_We_Knew.png" alt="thumbnail" class="img-responsive" /></div>
+	                        </div>
+	                    </a>
                     </div>
                     <div class="item">
-                        <div class="card tooltip" data-tooltip="Artist name here.">
-                            <div class="card-image"><img src="https://t1.daumcdn.net/cfile/tistory/99452C4B5CC3CF2C1B" alt="thumbnail" class="img-responsive" /></div>
-                        </div>
+	                    <a href="artist_page.html">
+	                        <div class="card tooltip" data-tooltip="Artist name here.">
+	                            <div class="card-image"><img src="https://t1.daumcdn.net/cfile/tistory/99452C4B5CC3CF2C1B" alt="thumbnail" class="img-responsive" /></div>
+	                        </div>
+	                    </a>
                     </div>
                     <div class="item">
-                        <div class="card tooltip" data-tooltip="Artist name here.">
-                            <div class="card-image"><img src="https://i.scdn.co/image/fe04c83b9a329527399f50827c098983ace070ad" alt="thumbnail" class="img-responsive" /></div>
-                        </div>
+	                    <a href="artist_page.html">
+	                        <div class="card tooltip" data-tooltip="Artist name here.">
+	                            <div class="card-image"><img src="https://i.scdn.co/image/fe04c83b9a329527399f50827c098983ace070ad" alt="thumbnail" class="img-responsive" /></div>
+	                        </div>
+	                    </a>
                     </div>
                     <div class="item">
-                        <div class="card tooltip" data-tooltip="Artist name here.">
-                            <div class="card-image"><img src="https://s.mxmcdn.net/images-storage/albums4/0/6/4/5/8/8/42885460_800_800.jpg" alt="thumbnail" class="img-responsive" /></div>
-                        </div>
+	                    <a href="artist_page.html">
+	                        <div class="card tooltip" data-tooltip="Artist name here.">
+	                            <div class="card-image"><img src="https://s.mxmcdn.net/images-storage/albums4/0/6/4/5/8/8/42885460_800_800.jpg" alt="thumbnail" class="img-responsive" /></div>
+	                        </div>
+	                    </a>
                     </div>
                 </div>
             </section>
@@ -164,94 +188,106 @@
                 <h3>Newest album</h3>
                 <div class="cards owl-carousel">
                     <div class="item">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://is4-ssl.mzstatic.com/image/thumb/Music128/v4/5b/98/02/5b98021c-f603-c1ed-d97c-95460eb6952d/UMG_cvrart_00602567328056_01_RGB72_3000x3000_17UM1IM17026.jpg/600x600bf.png" alt="thumbnail" class="img-responsive" />
-                            </div>
-                            <div class="card-header">
-                                <button class="btn btn-primary float-right"><span class="typcn typcn-shopping-cart"></span></button>
-                                <div class="card-title h5 text-ellipsis">Album title</div>
-                                <div class="card-subtitle text-gray text-ellipsis">Artist name</div>
-                            </div>
-                            <div class="card-body">
-                                Album description here rorem imsum dolla sit amet here Album description here rorem imsum dolla sit amet here Album description here.
-                            </div>
-                        </div>
+	                    <a href="album_page.html">
+                        	<div class="card">
+	                            <div class="card-image">
+	                                <img src="https://is4-ssl.mzstatic.com/image/thumb/Music128/v4/5b/98/02/5b98021c-f603-c1ed-d97c-95460eb6952d/UMG_cvrart_00602567328056_01_RGB72_3000x3000_17UM1IM17026.jpg/600x600bf.png" alt="thumbnail" class="img-responsive" />
+	                            </div>
+	                            <div class="card-header">
+	                                <button class="btn btn-primary float-right"><span class="typcn typcn-shopping-cart"></span></button>
+	                                <div class="card-title h5 text-ellipsis">Album title</div>
+	                                <div class="card-subtitle text-gray text-ellipsis">Artist name</div>
+	                            </div>
+	                            <div class="card-body">
+	                                Album description here rorem imsum dolla sit amet here Album description here rorem imsum dolla sit amet here Album description here.
+	                            </div>
+                        	</div>
+	                    </a>
                     </div>
                     <div class="item">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://images-na.ssl-images-amazon.com/images/I/513VUhBNJzL._SY355_.jpg" alt="thumbnail" class="img-responsive" />
-                            </div>
-                            <div class="card-header">
-                                <button class="btn btn-primary float-right"><span class="typcn typcn-shopping-cart"></span></button>
-                                <div class="card-title h5 text-ellipsis text-ellipsis">Please crop this longer text..</div>
-                                <div class="card-subtitle text-gray text-ellipsis text-ellipsis">Please crop this longer artist name text..</div>
-                            </div>
-                            <div class="card-body">
-                                Album description here rorem imsum dolla sit amet here Album description here rorem imsum dolla sit amet here Album description here.
-                            </div>
-                        </div>
+	                    <a href="album_page.html">
+                        	<div class="card">
+	                            <div class="card-image">
+	                                <img src="https://images-na.ssl-images-amazon.com/images/I/513VUhBNJzL._SY355_.jpg" alt="thumbnail" class="img-responsive" />
+	                            </div>
+	                            <div class="card-header">
+	                                <button class="btn btn-primary float-right"><span class="typcn typcn-shopping-cart"></span></button>
+	                                <div class="card-title h5 text-ellipsis text-ellipsis">Please crop this longer text..</div>
+	                                <div class="card-subtitle text-gray text-ellipsis text-ellipsis">Please crop this longer artist name text..</div>
+	                            </div>
+	                            <div class="card-body">
+	                                Album description here rorem imsum dolla sit amet here Album description here rorem imsum dolla sit amet here Album description here.
+	                            </div>
+                        	</div>
+	                    </a>
                     </div>
                     <div class="item">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://is2-ssl.mzstatic.com/image/thumb/Music128/v4/95/b3/0f/95b30fe8-aca6-552e-c113-ecac18b674bc/075679884336.jpg/600x600bf.png" alt="thumbnail" class="img-responsive" />
-                            </div>
-                            <div class="card-header">
-                                <button class="btn btn-primary float-right"><span class="typcn typcn-shopping-cart"></span></button>
-                                <div class="card-title h5 text-ellipsis">Album title</div>
-                                <div class="card-subtitle text-gray text-ellipsis">Artist name</div>
-                            </div>
-                            <div class="card-body">
-                                Album description here rorem imsum dolla sit amet here Album description here rorem imsum dolla sit amet here Album description here.
-                            </div>
-                        </div>
+	                    <a href="album_page.html">
+	                        <div class="card">
+	                            <div class="card-image">
+	                                <img src="https://is2-ssl.mzstatic.com/image/thumb/Music128/v4/95/b3/0f/95b30fe8-aca6-552e-c113-ecac18b674bc/075679884336.jpg/600x600bf.png" alt="thumbnail" class="img-responsive" />
+	                            </div>
+	                            <div class="card-header">
+	                                <button class="btn btn-primary float-right"><span class="typcn typcn-shopping-cart"></span></button>
+	                                <div class="card-title h5 text-ellipsis">Album title</div>
+	                                <div class="card-subtitle text-gray text-ellipsis">Artist name</div>
+	                            </div>
+	                            <div class="card-body">
+	                                Album description here rorem imsum dolla sit amet here Album description here rorem imsum dolla sit amet here Album description here.
+	                            </div>
+	                        </div>
+	                    </a>
                     </div>
                     <div class="item">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://images-na.ssl-images-amazon.com/images/I/51tvvhPfqTL._SY355_.jpg" alt="thumbnail" class="img-responsive" />
-                            </div>
-                            <div class="card-header">
-                                <button class="btn btn-primary float-right"><span class="typcn typcn-shopping-cart"></span></button>
-                                <div class="card-title h5 text-ellipsis">Album title</div>
-                                <div class="card-subtitle text-gray text-ellipsis">Artist name</div>
-                            </div>
-                            <div class="card-body">
-                                Album description here rorem imsum dolla sit amet here Album description here rorem imsum dolla sit amet here Album description here.
-                            </div>
-                        </div>
+	                    <a href="album_page.html">
+	                        <div class="card">
+	                            <div class="card-image">
+	                                <img src="https://images-na.ssl-images-amazon.com/images/I/51tvvhPfqTL._SY355_.jpg" alt="thumbnail" class="img-responsive" />
+	                            </div>
+	                            <div class="card-header">
+	                                <button class="btn btn-primary float-right"><span class="typcn typcn-shopping-cart"></span></button>
+	                                <div class="card-title h5 text-ellipsis">Album title</div>
+	                                <div class="card-subtitle text-gray text-ellipsis">Artist name</div>
+	                            </div>
+	                            <div class="card-body">
+	                                Album description here rorem imsum dolla sit amet here Album description here rorem imsum dolla sit amet here Album description here.
+	                            </div>
+	                        </div>
+	                    </a>
                     </div>
                     <div class="item">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://is4-ssl.mzstatic.com/image/thumb/Music128/v4/5b/98/02/5b98021c-f603-c1ed-d97c-95460eb6952d/UMG_cvrart_00602567328056_01_RGB72_3000x3000_17UM1IM17026.jpg/600x600bf.png" alt="thumbnail" class="img-responsive" />
-                            </div>
-                            <div class="card-header">
-                                <button class="btn btn-primary float-right"><span class="typcn typcn-shopping-cart"></span></button>
-                                <div class="card-title h5 text-ellipsis">Album title</div>
-                                <div class="card-subtitle text-gray text-ellipsis">Artist name</div>
-                            </div>
-                            <div class="card-body">
-                                Album description here rorem imsum dolla sit amet here Album description here rorem imsum dolla sit amet here Album description here.
-                            </div>
-                        </div>
+	                    <a href="album_page.html">
+	                        <div class="card">
+	                            <div class="card-image">
+	                                <img src="https://is4-ssl.mzstatic.com/image/thumb/Music128/v4/5b/98/02/5b98021c-f603-c1ed-d97c-95460eb6952d/UMG_cvrart_00602567328056_01_RGB72_3000x3000_17UM1IM17026.jpg/600x600bf.png" alt="thumbnail" class="img-responsive" />
+	                            </div>
+	                            <div class="card-header">
+	                                <button class="btn btn-primary float-right"><span class="typcn typcn-shopping-cart"></span></button>
+	                                <div class="card-title h5 text-ellipsis">Album title</div>
+	                                <div class="card-subtitle text-gray text-ellipsis">Artist name</div>
+	                            </div>
+	                            <div class="card-body">
+	                                Album description here rorem imsum dolla sit amet here Album description here rorem imsum dolla sit amet here Album description here.
+	                            </div>
+	                        </div>
+	                    </a>
                     </div>
                     <div class="item">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="https://images-na.ssl-images-amazon.com/images/I/513VUhBNJzL._SY355_.jpg" alt="thumbnail" class="img-responsive" />
-                            </div>
-                            <div class="card-header">
-                                <button class="btn btn-primary float-right"><span class="typcn typcn-shopping-cart"></span></button>
-                                <div class="card-title h5 text-ellipsis text-ellipsis">Please crop this longer text..</div>
-                                <div class="card-subtitle text-gray text-ellipsis text-ellipsis">Please crop this longer artist name text..</div>
-                            </div>
-                            <div class="card-body">
-                                Album description here rorem imsum dolla sit amet here Album description here rorem imsum dolla sit amet here Album description here.
-                            </div>
-                        </div>
+	                    <a href="album_page.html">
+	                        <div class="card">
+	                            <div class="card-image">
+	                                <img src="https://images-na.ssl-images-amazon.com/images/I/513VUhBNJzL._SY355_.jpg" alt="thumbnail" class="img-responsive" />
+	                            </div>
+	                            <div class="card-header">
+	                                <button class="btn btn-primary float-right"><span class="typcn typcn-shopping-cart"></span></button>
+	                                <div class="card-title h5 text-ellipsis text-ellipsis">Please crop this longer text..</div>
+	                                <div class="card-subtitle text-gray text-ellipsis text-ellipsis">Please crop this longer artist name text..</div>
+	                            </div>
+	                            <div class="card-body">
+	                                Album description here rorem imsum dolla sit amet here Album description here rorem imsum dolla sit amet here Album description here.
+	                            </div>
+	                        </div>
+	                    </a>
                     </div>
                 </div>
             </section>
